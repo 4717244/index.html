@@ -120,16 +120,16 @@ nav ul li a{
     color: var(--white-color);
 }
 /*End of nav*/
-.header-container{
+.hero-section{
     max-width: 1044px;
     height: 1000px;
-    margin: 0 auto;
+    margin: 13px auto 0 auto;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.header-container .main-content {
+.hero-section .main-content {
     max-width: 700px;
-    height: 466px;
+    height: 454px;
     margin-left: 172px;
     margin-right: 172px;
     display: flex;
@@ -137,7 +137,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
 }
-.header-container .main-content h5{
+.hero-section .main-content h5{
     font-size: 16px;
     font-weight: 700;
     margin:0;
@@ -145,14 +145,14 @@ nav ul li a{
     text-align: left;
     color: var(--orange-color);
 }
-.header-container .main-content h1{
+.hero-section .main-content h1{
     font-size: 58px;
     font-weight: 700;
     letter-spacing: 0.20000000298023224px;
     text-align: center;
     color: var(--white-color);
 }
-.header-container .main-content h4{
+.hero-section .main-content h4{
     font-size: 20px;
     margin:0;
     font-weight: 400;
@@ -160,7 +160,7 @@ nav ul li a{
     text-align: center;
     color: var(--white-color);
 }
-.header-container .main-content .join-us-btn{
+.hero-section .main-content .join-us-btn{
     max-width: 133px;
     height: 52px;
     padding: 15px 30px;
@@ -175,16 +175,16 @@ nav ul li a{
     letter-spacing: 0.20000000298023224px;
     text-align: center;
 }
-/*End of header container*/
-.header-container .col-card{
+/*End of hero-section*/
+.hero-section .col-card{
     max-width: 1044px;
-    height:300px;
+    height: 300px;
     display: flex;
     gap: 35px;
     margin-top: 80px;
     padding: 0;
 }
-.header-container .col-card .card-container{
+.hero-section .col-card .card-container{
     max-width: 328px;
     height: 300px;
     background-color: var(--white-color);
@@ -192,28 +192,28 @@ nav ul li a{
     padding: 35px 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.header-container .col-card .card-container h3{
+.hero-section .col-card .card-container h3{
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.1px;
-    margin: 18px 0;
+    margin: 16px 0;
 }
-.header-container .col-card .card-container .bold-line{
+.hero-section .col-card .card-container .bold-line{
     width: 50px;
-    height: 2px;
+    height: 3px;
     background-color: var(--dark-color);
     border: none;
     padding-left: 0;
-    margin: 18px 0;
+    margin: 20px 0;
 }
-.header-container .col-card .card-container p {
+.hero-section .col-card .card-container p {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.2px;
     margin: 18px 0;
     color: var(--light-gray-color);
 }
-.header-container .col-card .card-container2{
+.hero-section .col-card .card-container2{
     max-width: 328px;
     height: 300px;
     background-color: var(--light-color);
@@ -221,22 +221,22 @@ nav ul li a{
     padding: 35px 40px;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
 }
-.header-container .col-card .card-container2 h3{
+.hero-section .col-card .card-container2 h3{
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0.10000000149011612px;
-    margin: 18px 0;
+    margin: 16px 0;
 }
-.header-container .col-card .card-container2 .bold-line{
+.hero-section .col-card .card-container2 .bold-line{
     width: 50px;
-    height: 2px;
+    height: 3px;
     background-color: var(--white-color);
     border: none;
     padding-left: 0;
-    margin: 18px 0;
+    margin: 20px 0;
 }
-.header-container .col-card .card-container2 p {
+.hero-section .col-card .card-container2 p {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -244,7 +244,7 @@ nav ul li a{
     margin: 18px 0;
     color: var(--white-color);
 }
-/*End of header section*/
+/*End of hero-section*/
 
 .courses-container{
     max-width: 100%;
@@ -882,11 +882,11 @@ input[type="submit"] {
 
 footer{
     max-width: 100%;
-    height: 270px;
+    height: 272px;
 }
 .footer-container{
     max-width: 1044px;
-    height: 272px;
+    height: 270px;
     display: flex;
     margin: 0 auto;
     padding: 50px 0;
@@ -905,6 +905,7 @@ footer{
     text-align: left;
     color: #252B42;
     padding-right: 30px;
+    margin:0;
 }
 .main-footer .main-title ul{
     width: 152px;
@@ -913,6 +914,7 @@ footer{
     padding-left: 0;
     list-style: none;
     text-decoration: none;
+    gap: 10px;
 }
 .main-footer li a{
     font-size: 14px;
@@ -932,7 +934,7 @@ footer{
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.20000000298023224px;
-    margin: 0;
+    margin: 13px 0 0 0;
 }
 .main-title p a{
     text-decoration: none;
