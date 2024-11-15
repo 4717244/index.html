@@ -1,4 +1,37 @@
 
+@media only screen and (min-width: 946px) and (max-width: 1000px){
+
+    /*header{*/
+    /*    width: 100%;*/
+    /*}*/
+    .quality-section{
+        width: 100%;
+    }
+    .quality-cards{
+        width: 100%;
+        gap:10px;
+    }
+    .quality-cards img {
+        width: 222px;
+    }
+    .popular-cards{
+        width: 100%;
+        gap:15px;
+    }
+    .corner-button{
+        display: none;
+    }
+    /*.popular-card1{*/
+    /*    width: 280px;*/
+    /*}*/
+    /*.popular-card2{*/
+    /*    width: 280px;*/
+    /*}*/
+    .designer-content{
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
 
   header{
@@ -48,7 +81,6 @@ nav ul{
      width: 100%;
      padding: 0 27px;
      display: flex;
-     /*justify-content: center;*/
  }
  .header-contents{
      width: 864px;
@@ -253,9 +285,21 @@ nav ul{
   .courses-section .left img{
        width: 100%;
   }
+    .quality-cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .quality-cards img{
+        width: 195px;
+        height: 480px;
+    }
   .client-right-section img{
       width: 100%;
   }
+    .popular-card2 .corner-button {
+        left: 122px;
+    }
   .newsletter-content {
       width: 100%;
     padding-left: 0;
@@ -266,6 +310,14 @@ nav ul{
   .subscribe-form{
       width:100%;
   }
+  .footer-social{
+      margin-top: 75%;
+  }
+    .footer-social .footer-social-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+
 }
 
 @media only screen and (min-width: 601px) and (max-width: 815px) {
@@ -329,16 +381,15 @@ nav ul{
     }
     .quality-cards{
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
         margin-top: 40px;
     }
     .quality-cards img{
-        width:238px;
+        width:205px;
         height: 480px;
     }
     .quality-text-section{
-        padding-left: 15%;
+        /*padding-left: 15%;*/
     }
 
     .popular-courses-section{
@@ -429,7 +480,7 @@ nav ul{
         flex-wrap:wrap;
     }
     .footer-social{
-        margin-top: 17%;
+        margin-top: 55%;
         padding: 0 50px
     }
 }
@@ -481,25 +532,14 @@ nav ul{
    .footer-container{
         padding: 0 27px;
     }
-    .main-footer{
-       gap:20px;
+    .main-footer {
+       flex-wrap: wrap;
+    }
+    .footer-social{
+        margin-top: 14%;
+    }
+    .footer-social-content{
+        margin: 0 auto;
     }
 }
 
-/*@media only screen and(min-width: 946px) and (max-width: 1000px){*/
-
-/*     header{*/
-/*         width: 100%;*/
-/*     }*/
-/*    .quality-section{*/
-/*        width: 100%;*/
-/*    }*/
-/*    .quality-cards{*/
-/*        width: 100%;*/
-/*        gap:10px;*/
-/*    }*/
-/*    .quality-cards img {*/
-/*        width: 190px;*/
-/*    }*/
-
-/*}*/
